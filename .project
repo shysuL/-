@@ -28,21 +28,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>WebContent/jsp_005f01_jsp.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/work/Catalina/localhost/ROOT/org/apache/jsp/basicTag/jsp_005f01_jsp.java</locationURI>
-		</link>
-		<link>
-			<name>WebContent/jsp_005f02_jsp.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/work/Catalina/localhost/ROOT/org/apache/jsp/basicTag/jsp_005f02_jsp.java</locationURI>
-		</link>
-		<link>
-			<name>WebContent/jsp_005f04_jsp.java</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/work/Catalina/localhost/ROOT/org/apache/jsp/basicTag/jsp_005f04_jsp.java</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

@@ -21,6 +21,22 @@
 	application.setAttribute("applicationData", 500);
 %>
 
+<%-- 스크립트릿에서 선언된 local 변수는 EL로 사용 불가 --%>
+localData: ${localData  }<br>
+
+page : ${pageData }<br>
+request : ${requestData }<br>
+session : ${sessionData }<br>
+application : ${applicationData }<br>
+
+<hr>
+
+page : ${pageScope.pageData }<br>
+request : ${requestScope.requestData }<br>
+session : ${sessionScope.sessionData }<br>
+application : ${applicationScope.applicationData }<br>
+
+
 
 </body>
 </html>
