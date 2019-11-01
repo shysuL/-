@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>el 테스트 03</h1>
+<h3>el의 컨텍스트 정보</h3>
+<hr>
+
+<%
+	int localData = 100;
+
+	pageContext.setAttribute("pageData", 200);
+	request.setAttribute("requestData", 300);
+	session.setAttribute("sessionData", 400);
+	application.setAttribute("applicationData", 500);
+%>
+
+
+</body>
+</html>
