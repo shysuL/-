@@ -46,7 +46,7 @@
 		console.log(res);
 		document.write("<hr>");
 		document.write("confirm : " + res);
-		
+		 
 	</script>
 </c:if>
 
